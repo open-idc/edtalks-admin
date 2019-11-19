@@ -6,7 +6,7 @@ alt text: 'Screenshot of Claro, Drupal administration theme.'
 package: EDT
 core: 8.x
 libraries:
- - claro/global-styling
+ - edtalks_admin/global-styling
 libraries-override:
   system/base:
     css:
@@ -49,7 +49,7 @@ libraries-override:
       component:
         assets/vendor/jquery.ui/themes/base/dialog.css: false
 
-  classy/dialog: claro/claro.drupal.dialog
+  classy/dialog: edtalks_admin/claro.drupal.dialog
 
   classy/base:
     css:
@@ -84,7 +84,7 @@ libraries-override:
 
   classy/user: false
 
-  user/drupal.user: claro/form.password-confirm
+  user/drupal.user: edtalks_admin/form.password-confirm
 
   field_ui/drupal.field_ui:
     css:
@@ -108,39 +108,39 @@ libraries-override:
 
 libraries-extend:
   ckeditor/drupal.ckeditor:
-    - claro/ckeditor-editor
+    - edtalks_admin/ckeditor-editor
   classy/image-widget:
-    - claro/image-widget
+    - edtalks_admin/image-widget
   core/ckeditor:
-    - claro/ckeditor-dialog
+    - edtalks_admin/ckeditor-dialog
   core/drupal.collapse:
-    - claro/details-focus
+    - edtalks_admin/details-focus
   core/drupal.dropbutton:
-    - claro/drupal-theme
+    - edtalks_admin/drupal-theme
   core/drupal.message:
-    - claro/messages
+    - edtalks_admin/messages
   core/drupal.vertical-tabs:
-    - claro/vertical-tabs
+    - edtalks_admin/vertical-tabs
   core/drupal.tableselect:
-    - claro/drupal.tableselect
+    - edtalks_admin/drupal.tableselect
   core/jquery.ui:
-    - claro/claro.jquery.ui
+    - edtalks_admin/claro.jquery.ui
   file/drupal.file:
-    - claro/file
+    - edtalks_admin/file
   media_library/view:
-    - claro/media_library.view
+    - edtalks_admin/media_library.view
   system/admin:
-    - claro/system.admin
+    - edtalks_admin/system.admin
   core/drupal.autocomplete:
-    - claro/autocomplete
+    - edtalks_admin/autocomplete
   tour/tour-styling:
-    - claro/tour-styling
+    - edtalks_admin/tour-styling
   shortcut/drupal.shortcut:
-    - claro/drupal.shortcut
+    - edtalks_admin/drupal.shortcut
   core/drupal.ajax:
-    - claro/ajax
+    - edtalks_admin/ajax
   views/views.module:
-    - claro/views
+    - edtalks_admin/views
 
 quickedit_stylesheets:
   - /themes/contrib/claro/css/dist/components/quickedit.css

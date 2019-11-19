@@ -84,7 +84,7 @@ maintenance-page:
       /themes/contrib/claro/css/dist/theme/maintenance-page.css: {}
   dependencies:
     - system/maintenance
-    - claro/global-styling
+    - edtalks_admin/global-styling
 
 install-page:
   version: VERSION
@@ -94,7 +94,7 @@ install-page:
     theme:
       /themes/contrib/claro/css/dist/theme/install-page.css: {}
   dependencies:
-    - claro/maintenance-page
+    - edtalks_admin/maintenance-page
 
 drupal.nav-tabs:
   version: VERSION
@@ -119,13 +119,13 @@ drupal.responsive-detail:
     - core/jquery.once
     - core/collapse
 
-claro.jquery.ui:
+edtalks_admin.jquery.ui:
   version: VERSION
   css:
     component:
       /themes/contrib/claro/css/dist/components/jquery.ui/theme.css: { weight: -1 }
 
-claro.drupal.dialog:
+edtalks_admin.drupal.dialog:
   version: VERSION
   css:
     theme:
@@ -175,7 +175,7 @@ system.admin:
     layout:
       /themes/contrib/claro/css/dist/layout/system-admin--layout.css: { weight: -10 }
   dependencies:
-    - claro/card
+    - edtalks_admin/card
 
 drupal-theme:
   version: VERSION
@@ -227,7 +227,7 @@ form.password-confirm:
     - core/jquery
     - core/drupal
     - core/jquery.once
-    - claro/global-styling
+    - edtalks_admin/global-styling
 
 views:
   css:
@@ -249,7 +249,7 @@ vertical-tabs:
     component:
       /themes/contrib/claro/css/dist/components/vertical-tabs.css: {}
   dependencies:
-    - claro/global-styling
+    - edtalks_admin/global-styling
 
 file:
   css:
