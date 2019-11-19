@@ -124,7 +124,7 @@ libraries-extend:
   core/drupal.tableselect:
     - edtalks_admin/drupal.tableselect
   core/jquery.ui:
-    - edtalks_admin/claro.jquery.ui
+    - edtalks_admin/edtalks_admin.jquery.ui
   file/drupal.file:
     - edtalks_admin/file
   media_library/view:
