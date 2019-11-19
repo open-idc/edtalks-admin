@@ -49,7 +49,7 @@ libraries-override:
       component:
         assets/vendor/jquery.ui/themes/base/dialog.css: false
 
-  classy/dialog: edtalks_admin/claro.drupal.dialog
+  classy/dialog: edtalks_admin/edtalks_admin.drupal.dialog
 
   classy/base:
     css:
