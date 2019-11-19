@@ -1,0 +1,19 @@
+{
+    "name": "open-idc/edtalks-admin",
+    "description": "Subtheme of Claro theme.",
+    "type": "drupal-custom-theme",
+    "homepage": "https://github.com/open-idc/edtalks-admin",
+    "authors": [
+        {
+            "name": "Yasin Dahi (ydahi)",
+            "homepage": "https://github.com/ymdahi",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/open-idc/edtalks-admin",
+        "source": "https://github.com/open-idc/edtalks-admin"
+    },
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev"
+}
